@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Health Info Helper (Educational)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Health Info Helper</h1>
+    <p class="sub">
+      Educational info only — not medical advice. Not for emergencies.
+    </p>
+    <details class="disclaimer">
+      <summary>Read safety & privacy notes</summary>
+      <ul>
+        <li>This tool provides general educational information only and does not diagnose or treat.</li>
+        <li>If you think you may be having an emergency, call local emergency services (911 in the U.S.).</li>
+        <li>Do not share personal identifying information (name, address, phone, school, etc.).</li>
+      </ul>
+    </details>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <div id="chat" class="chat" aria-live="polite"></div>
+
+      <form id="form" class="composer" autocomplete="off">
+        <input id="msg" type="text" placeholder="Ask about a topic (e.g., headache, fever)..." />
+        <button type="submit">Send</button>
+      </form>
+
+      <div class="quick">
+        <button class="chip" data-topic="headache">Headache</button>
+        <button class="chip" data-topic="fever">Fever</button>
+        <button class="chip" data-topic="sore_throat">Sore throat</button>
+        <button class="chip" data-topic="cough">Cough</button>
+        <button class="chip" data-topic="anxiety_stress">Anxiety/Stress</button>
+      </div>
+
+      <p class="tiny">
+        Tip: Try “I have chest pain” or “How much ibuprofen?” to see the safety rules trigger.
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap tiny">
+    Built as a student health-education project. Sources linked inside each topic.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
