@@ -1,0 +1,23 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+body { margin: 0; background: #f6f7fb; color: #111; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 16px; }
+h1 { margin: 8px 0 4px; }
+.sub { margin: 0 0 10px; color: #333; }
+.panel { background: white; border-radius: 14px; padding: 14px; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+.chat { height: 52vh; overflow: auto; padding: 10px; border: 1px solid #e6e6ee; border-radius: 12px; background: #fff; }
+.msg { display: flex; gap: 10px; margin: 10px 0; }
+.bubble { padding: 10px 12px; border-radius: 12px; max-width: 78%; line-height: 1.35; white-space: pre-wrap; }
+.user { justify-content: flex-end; }
+.user .bubble { background: #e9f0ff; }
+.bot .bubble { background: #f2f3f7; }
+.composer { display: flex; gap: 10px; margin-top: 10px; }
+input { flex: 1; padding: 10px 12px; border-radius: 12px; border: 1px solid #dcdceb; }
+button { padding: 10px 14px; border-radius: 12px; border: 1px solid #d0d0e0; background: #fff; cursor: pointer; }
+button:hover { background: #fafaff; }
+.quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.chip { padding: 8px 10px; border-radius: 999px; }
+.disclaimer { margin-top: 8px; }
+.tiny { font-size: 12px; color: #555; }
+a { color: #1b5cff; }
+
+
